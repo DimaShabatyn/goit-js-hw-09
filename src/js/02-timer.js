@@ -5,6 +5,7 @@ import flatpickr from "flatpickr";
 // Додатковий імпорт стилів
 import "flatpickr/dist/flatpickr.min.css";
 
+document.body.style.backgroundColor = 'rgb(224 210 224)';
 const startBtn = document.querySelector('[data-start]');
 // console.log(startBtn);
 const inputCalendar = document.querySelector('input#datetime-picker');
