@@ -69,7 +69,7 @@ const counter = {
             inputCalendar.disabled = true;
             currentDate = Date.now();
             const delta = selectedDate - currentDate;
-            console.log(delta);
+            // console.log(delta);
             convertMs(delta);
             // console.log(convertMs(delta));
             updateInterfaceTimer(convertMs(delta));
